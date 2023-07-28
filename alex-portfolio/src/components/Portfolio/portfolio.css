@@ -1,0 +1,23 @@
+
+.project{
+    background-color: #7CA2CB;
+    color: white;
+    box-shadow: 8px 6px  10px grey ;
+    min-width: 400px;
+    transition:  all 0.4s ease 0s;
+}
+
+.project:hover{
+    box-shadow: 8px 6px  10px cyan ;
+    background-color: black;
+    color: white;
+    transition: 0.75s;
+    transform: scale(1.05);
+    transition:  all 0.4s ease 0s;
+}
+
+img{
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}

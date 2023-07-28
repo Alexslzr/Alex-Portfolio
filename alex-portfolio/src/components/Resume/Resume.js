@@ -23,7 +23,7 @@ export default function Resume({skills}) {
     <div className='m-3'>
       <a href="/Alejandro_Salazar_Resume.pdf" download="Alejandro_Salazar_Resume.pdf"><button><HiOutlineDownload /> Resume</button></a>
       <h1 className='text-center'>Technical Skills</h1>
-      <div className='d-flex flex-column align-items-center'>
+      <div className='d-flex flex-column align-items-center justify-content-center'>
         <div className='d-flex'>
           <div className='tech-icon'>
             <DiJavascript1/>

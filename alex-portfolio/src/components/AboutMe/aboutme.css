@@ -1,0 +1,13 @@
+.about:hover{
+        box-shadow: 8px 10px  10px cyan ;
+        transition: 0.75s;
+        transform: scale(1.01);
+        transition:  all 0.4s ease 0s;  
+        border: none;
+}
+
+.about{
+    border-right: solid 1px black;
+    box-shadow: 18px 16px  10px gray ;
+    transition:  all 0.4s ease 0s;  
+}

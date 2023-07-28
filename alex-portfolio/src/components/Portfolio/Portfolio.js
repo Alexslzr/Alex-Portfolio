@@ -13,19 +13,27 @@ export default function Portfolio({projects}) {
   return (
       <div>
         {projects.map((project)=> (
-        <div className="bg-secondary m-5 p-4 rounded shadow" key={project.id}>
-          <div className='d-flex align-items-center'>
-            <h1 key={project.id}>{project.title}</h1>
-            <a href={project.repo} target="_blank">
-                  <img style={styles.image} src={require("../../Images/github-mark.png")} alt="github-logo"></img>
-            </a>
-          </div>
-          <h5>{project.tech}</h5>
-          <a href={project.app} target='_blank'>
-            <img src={project.img} alt={project.title}></img>
-          </a>
-        </div>
-        ))}
+        
+            <div className="d-flex justify-content-center m-5">
+            {project.section.map((pro)=> (
+            <div className="project my-2 mx-4 p-4 rounded">
+              <div className='d-flex align-items-center'>
+                <h1 key={pro.id}>{pro.title}</h1>
+                <a href={pro.repo} target="_blank">
+                      <img style={styles.image} src={require("../../Images/github-mark-white.png")} alt="github-logo"></img>
+                </a>
+              </div>
+              <h5>{pro.tech}</h5>
+              <a href={pro.app} target='_blank'>
+                <img src={pro.img} alt={pro.title}></img>
+              </a>
+            </div>
+             ))}
+          </div> 
+          ))} 
+        
+        
+       
     </div> 
     )
 }
