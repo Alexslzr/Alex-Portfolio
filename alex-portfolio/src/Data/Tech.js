@@ -1,59 +1,57 @@
+ 
  let skills = [
-    {
-        frontend: [
             {
                 tech: 'ReactJs',
-                logo: ''
+                logo: 'DiReact'
             },
             {
                 tech: 'Javascript',
-                logo: ''
+                logo: 'DiJavascript1'
             },
             {
                 tech: 'HTML',
-                logo: ''
+                logo: 'DiHtml5'
             },
             {
                 tech: 'CSS',
-                logo: ''
+                logo: 'DiCss3'
             },
             {
                 tech: 'Jquery',
-                logo: ''
+                logo: 'DiJqueryLogo'
             },
             {
                 tech: 'Bootstrap',
-                logo: ''
+                logo: 'DiBootstrap'
             },
             {
                 tech: 'Tailwind',
-                logo: ''
+                logo: 'BiLogoTailwindCss'
             },
-
-        ]
-    },
-    {
-        backend: [
             {
                 tech: 'NodeJs',
-                logo: ''
+                logo: 'DiNodejs'
             },
             {
                 tech: 'ExpressJs',
-                logo: ''
+                logo: 'SiExpress'
             },
             {
                 tech: 'MYSQL',
-                logo: ''
+                logo: 'DiMysql'
             },
             {
                 tech: 'MongoDB',
-                logo: ''
+                logo: 'DiMongodb'
             },
-
-        ]
-    }
-
+            {
+                tech: 'Git',
+                logo: 'DiGit'
+            },
+            {
+                tech: 'Heroku',
+                logo: 'DiHeroku'
+            },
  ]
 
 

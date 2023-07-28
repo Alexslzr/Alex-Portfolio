@@ -1,0 +1,12 @@
+
+footer a img{
+    height: 40px;
+    display: flex;
+    margin: 30px 25px;
+    opacity: 0.75;
+}
+
+footer{
+    background-color: white;
+    height: 10vh;
+}

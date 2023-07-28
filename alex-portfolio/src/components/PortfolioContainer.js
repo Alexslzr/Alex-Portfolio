@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-import Footer from './footer';
-import Header from './Header';
-import projects from '../Data';
+import AboutMe from './AboutMe/AboutMe';
+import Portfolio from './Portfolio/Portfolio';
+import Resume from './Resume/Resume';
+import Contact from './Contact/Contact';
+import Footer from './footer/footer';
+import Header from './Header'
+import projects from '../Data/Data';
+import skills from '../Data/Tech';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -21,7 +22,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Resume />;
+    return <Resume skills={skills}/>;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

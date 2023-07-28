@@ -1,48 +1,50 @@
 import React from 'react';
+import { AiOutlineUser, AiOutlineMail } from "react-icons/ai";
+import { ImFileText2 } from "react-icons/im";
+import { MdWorkOutline } from "react-icons/md";
+import './header.css'
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+
 function Header({ currentPage, handlePageChange }) {
   return (
     <div className='d-flex align-items-center justify-content-between p-3 shadow-sm'>
       <h1>Alejandro Salazar</h1>
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
+      <ul className='d-flex flex-col justify-content-around'>
+        <li>
           <a
             href="#aboutMe"
             onClick={() => handlePageChange('AboutMe')}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'AboutMe' ? 'd-flex align-items-center act' : 'd-flex align-items-center'}
           >
-            About Me
+            <AiOutlineUser/>About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Portfolio' ? 'd-flex align-items-center act' : 'd-flex align-items-center'}
           >
-            Portfolio
+
+          <MdWorkOutline/> Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Contact' ? 'd-flex align-items-center act' : 'd-flex align-items-center'}
           >
-            Contact
+          <AiOutlineMail/>  Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li>
           <a
             href="#resume"
             onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Resume' ? 'd-flex align-items-center act' : 'd-flex align-items-center'}
           >
-            Resume
+          <ImFileText2/>  Resume
           </a>
         </li>
       </ul>

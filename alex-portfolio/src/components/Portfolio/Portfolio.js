@@ -1,4 +1,5 @@
 import React from 'react';
+import './portfolio.css'
 
 let styles = {
   image: {
@@ -16,7 +17,7 @@ export default function Portfolio({projects}) {
           <div className='d-flex align-items-center'>
             <h1 key={project.id}>{project.title}</h1>
             <a href={project.repo} target="_blank">
-                  <img style={styles.image} src={require("../../github-mark.png")} alt="github-logo"></img>
+                  <img style={styles.image} src={require("../../Images/github-mark.png")} alt="github-logo"></img>
             </a>
           </div>
           <h5>{project.tech}</h5>

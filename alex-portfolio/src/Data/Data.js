@@ -5,7 +5,7 @@ const projects = [
         app: 'https://sales-tracker-t4p2-f41e20adc513.herokuapp.com/login',
         repo: 'https://github.com/Morkendi/Sales-Tracker',
         tech: 'Js/NodeJs/ExpressJs/Mysql/TailwindCss',
-        img: 'https://github.com/Morkendi/Sales-Tracker/blob/main/public/images/deployed.gif'
+        img: 'https://github.com/Morkendi/Sales-Tracker/blob/main/public/images/deployed.gif?raw=true'
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const projects = [
         app: 'https://pacific-bayou-28721-544ed386ada5.herokuapp.com/',
         repo: 'https://github.com/Alexslzr/Tech-Blog',
         tech: 'Js/NodeJs/ExpressJs/Mysql/BootstrapCss',
-        img:  'https://github.com/Alexslzr/Tech-Blog/blob/main/Assets/techblog.png'
+        img:  'https://github.com/Alexslzr/Tech-Blog/raw/main/Assets/techblog.png'
     },
     {
         id: 3,

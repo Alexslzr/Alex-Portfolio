@@ -1,0 +1,33 @@
+.tech-icon{
+    box-shadow: 8px 6px  10px grey ;
+    background-color: #7CA2CB;
+    margin: 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    height: 75px;
+    padding: 5px;
+    color: white;
+    transition: all 0.4s ease 0s;
+}
+
+.tech-icon:hover{
+    box-shadow: 8px 6px  10px cyan ;
+    background-color: black;
+    color: white;
+    transition: 0.75s;
+    transform: scale(1.2);
+    transition:  all 0.4s ease 0s;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 15px;
+}
+
