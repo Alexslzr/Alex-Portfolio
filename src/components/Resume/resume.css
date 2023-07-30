@@ -21,19 +21,28 @@
     box-shadow: 8px 6px  10px cyan ;
     background-color: black;
     color: white;
-    transition: 0.75s;
     transform: scale(1.2);
     transition:  all 0.4s ease 0s;
 }
 
 .resume{
-    border: 1px solid black;
+    box-shadow: 8px 6px  10px gray;
+    border: none;
     padding: 10px;
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 150px;
+    min-height: 30px;
     border-radius: 15px;
     font-size: 3vh;
-    background-color: #7CA2CB;
+    background-color: #BCF4DE;
+    color: black;
+    transition:  all 0.4s ease 0s
+}
+
+.resume:hover{
+    box-shadow: 8px 6px  10px lightblue;
+    transform: scale(1.2);
+    transition:  all 0.4s ease 0s;
+    background-color: black;
     color: white;
 }
 
