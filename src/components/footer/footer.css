@@ -4,8 +4,22 @@ footer a img{
     display: flex;
     margin: 10px 25px;
     opacity: 0.75;
+    transition: 0.4s;
 }
 
 footer{
     height: 10vh;
 }
+
+footer a img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.4s;
+}
+/*
+footer{
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}*/

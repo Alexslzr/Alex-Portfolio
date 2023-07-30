@@ -3,8 +3,8 @@ import './aboutme.css'
 
 export default function AboutMe() {
   return (
-    <div className='m-5 d-flex'>
-      <img className="rounded mx-auto" width="20%" src='https://media.licdn.com/dms/image/C5603AQE0UaSQWtuzIA/profile-displayphoto-shrink_800_800/0/1624990786703?e=1695859200&v=beta&t=uTjZHbkJI5FyejDPI3Hn4hhnv4fFnuN8Bfo0ALMpmeU'></img>
+    <div className='m-5 d-flex flex-column'>
+      <img className="rounded mx-auto shadow mb-2" width="20%" src='https://media.licdn.com/dms/image/C5603AQE0UaSQWtuzIA/profile-displayphoto-shrink_800_800/0/1624990786703?e=1695859200&v=beta&t=uTjZHbkJI5FyejDPI3Hn4hhnv4fFnuN8Bfo0ALMpmeU'></img>
       <div className='mx-5 my-2 rounded p-3 about'>
         <h1 className='text-center'>About Me</h1>
         <p className='text-justify'>

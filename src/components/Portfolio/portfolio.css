@@ -3,7 +3,7 @@
     background-color: #7CA2CB;
     color: white;
     box-shadow: 8px 6px  10px grey ;
-    min-width: 400px;
+    width: 25vw;
     transition:  all 0.4s ease 0s;
 }
 

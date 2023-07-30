@@ -4,7 +4,7 @@ import Portfolio from './Portfolio/Portfolio';
 import Resume from './Resume/Resume';
 import Contact from './Contact/Contact';
 import Footer from './footer/footer';
-import Header from './Header'
+import Header from './Header/Header'
 import projects from '../Data/Data';
 import skills from '../Data/Tech';
 import './styles.css'
@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
     <div className='back'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} /> 
       {renderPage()}
-      <Footer />
+      <Footer currentPage={currentPage}/>
     </div>
   );
 }

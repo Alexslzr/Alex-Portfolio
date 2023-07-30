@@ -9,9 +9,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 125px;
-    height: 75px;
-    padding: 5px;
+    width: 10vw;
+    height: 12vh;
     color: white;
     transition: all 0.4s ease 0s;
     font-size: 50px;

@@ -1,5 +1,6 @@
 .back{
     background-image: url("../Images/cool-background.png");
+    min-height: 100vh;
 }
 
 /*https://media.cnn.com/api/v1/images/stellar/prod/221218184732-messi-wc-trophy.jpg?c=original

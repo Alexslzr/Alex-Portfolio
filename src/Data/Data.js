@@ -51,7 +51,7 @@ const projects = [
                         app: 'https://github.com/Alexslzr/README-Generator',
                         repo: 'https://github.com/Alexslzr/README-Generator',
                         tech: 'Mysql/NodeJs/ExpressJs',
-                        img: "../../Readmegenerator.png"
+                        img: "https://github.com/Alexslzr/README-Generator/raw/main/assets/Readmegenerator.png"
                     }
                 ]
     },

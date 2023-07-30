@@ -22,7 +22,6 @@ export default function Resume({skills}) {
   return (
     <div>
       <div className='m-3 d-flex flex-column align-items-center'>
-        <a href="/Alejandro_Salazar_Resume.pdf" download="Alejandro_Salazar_Resume.pdf" className='my-3'><button className='resume'><HiOutlineDownload /> Resume</button></a>
         <h1 className='text-center'>Technical Skills</h1>
         <div className='d-flex flex-column align-items-center justify-content-center'>
           <div className='d-flex'>
@@ -88,6 +87,7 @@ export default function Resume({skills}) {
             </div>
           </div>
         </div>
+        <a href="/Alejandro_Salazar_Resume.pdf" download="Alejandro_Salazar_Resume.pdf" className='mt-5'><button className='resume'><HiOutlineDownload /> Resume</button></a>
       </div>
       </div>
   );
