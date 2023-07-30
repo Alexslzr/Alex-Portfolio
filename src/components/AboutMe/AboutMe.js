@@ -7,7 +7,7 @@ export default function AboutMe() {
       <img className="rounded mx-auto" width="20%" src='https://media.licdn.com/dms/image/C5603AQE0UaSQWtuzIA/profile-displayphoto-shrink_800_800/0/1624990786703?e=1695859200&v=beta&t=uTjZHbkJI5FyejDPI3Hn4hhnv4fFnuN8Bfo0ALMpmeU'></img>
       <div className='mx-5 my-2 rounded p-3 about'>
         <h1 className='text-center'>About Me</h1>
-        <p>
+        <p className='text-justify'>
         I am Mechatronics Engineer with interest in software development,
         on my free times i study by myself and i am currently taking a Fullstack development bootcamp 
         in order to improve my programing skills, what i also enjoy is hanging out with friends, go outside for a walk and play sports,

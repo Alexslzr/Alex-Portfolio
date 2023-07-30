@@ -7,14 +7,14 @@ import './header.css'
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className='d-flex align-items-center justify-content-between p-3 shadow-sm'>
+    <div className='d-flex align-items-center justify-content-between shadow p-3 bac'>
       <h1>Alejandro Salazar</h1>
       <ul className='d-flex flex-col justify-content-around'>
         <li>
           <a
             href="#aboutMe"
             onClick={() => handlePageChange('AboutMe')}
-            className={currentPage === 'AboutMe' ? 'd-flex align-items-center act' : 'd-flex align-items-center'}
+            className={currentPage === 'AboutMe' ? 'd-flex align-items-center act ' : 'd-flex align-items-center'}
           >
             <AiOutlineUser/>About Me
           </a>

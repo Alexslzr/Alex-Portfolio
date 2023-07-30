@@ -3,7 +3,7 @@ import "./footer.css"
 
 function Footer() {
     return (
-        <footer className="d-flex align-items-center justify-content-sm-center fixed-bottom" >
+        <footer className="d-flex align-items-center justify-content-sm-center" >
             <a href="https://github.com/Alexslzr/" target="_blank">
                 <img  src={require("../../Images/github-mark.png")} alt="github-logo"></img>
             </a>

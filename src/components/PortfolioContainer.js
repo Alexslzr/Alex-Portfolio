@@ -7,6 +7,7 @@ import Footer from './footer/footer';
 import Header from './Header'
 import projects from '../Data/Data';
 import skills from '../Data/Tech';
+import './styles.css'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -28,7 +29,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='back'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} /> 
       {renderPage()}
       <Footer />

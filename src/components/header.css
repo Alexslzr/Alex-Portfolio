@@ -5,7 +5,7 @@ ul {
 }
 
 ul li {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 ul li a{
@@ -13,6 +13,7 @@ ul li a{
     color: black;
     text-decoration: none;
     transition:  all 0.4s ease 0s;
+    font-size: 20px;
 }
 
 ul li a:hover{
@@ -27,4 +28,10 @@ ul li a:hover{
     transition:  all 0.4s ease 0s;
     text-decoration:underline
 }
+/*
+.bac{
+    box-shadow: 10px 10px 10px gray;
+    background-color: #7CA2CB;
+    color: white;
+}*/
 
