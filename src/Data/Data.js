@@ -100,6 +100,14 @@ const projects = [
                 repo: 'https://github.com/rponce23/Project_1',
                 tech: 'Js/HTML/TailwindCss/Third-party-API',
                 img: 'https://github.com/rponce23/Project_1/raw/main/assets/images/Main%20Screen%20page.jpg'
+            },
+            {
+                id: 10,
+                title: "Social-Network-API",
+                app: 'https://github.com/Alexslzr/Social-Network-API',
+                repo: 'https://github.com/Alexslzr/Social-Network-API',
+                tech: "MongoDB/ExpressJs/Mongoose/NodeJs",
+                img: "https://github.com/Alexslzr/Social-Network-API/raw/main/Assets/18-nosql-homework-demo-01.gif"
             }
            
         ]

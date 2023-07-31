@@ -22,14 +22,11 @@ export default function Contact() {
     } else {
       setMessage(inputValue)
     }
-
-
   }
  
-
   const handleSubmit = (e) => { 
 
-    //e.preventDefault();
+    e.preventDefault();
 
     if(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(email) || !name){
       setErrorMessage('Missing Name, or invalid email')

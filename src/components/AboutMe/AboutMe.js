@@ -8,10 +8,10 @@ export default function AboutMe() {
       <div className='mx-5 my-2 rounded p-3 about'>
         <h1 className='text-center'>About Me</h1>
         <p className='text-justify'>
-        I am Mechatronics Engineer with interest in software development,
-        on my free times i study by myself and i am currently taking a Fullstack development bootcamp 
-        in order to improve my programing skills, what i also enjoy is hanging out with friends, go outside for a walk and play sports,
-        my favorite is soccer which i play since i was 5, my favorite color is green and my favorite food is tacos de carne asada.
+          I am Mechatronics Engineer with interest in software development,
+          on my free times i study by myself and i am currently taking a Fullstack development bootcamp 
+          in order to improve my programing skills, what i also enjoy is hanging out with friends, go outside for a walk and play sports,
+          my favorite is soccer which i play since i was 5, my favorite color is green and my favorite food is tacos de carne asada.
         </p>
       </div>
     </div>
