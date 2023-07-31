@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../Images/Alejandro_Salazar_Resume.pdf'
 import './resume.css'
 import { SiExpress } from "react-icons/si";
 import { BiLogoTailwindCss, BiLogoGraphql } from "react-icons/bi";
@@ -87,7 +88,7 @@ export default function Resume({skills}) {
             </div>
           </div>
         </div>
-        <a href="/Alejandro_Salazar_Resume.pdf" download="Alejandro_Salazar_Resume.pdf" className='mt-5'><button className='resume'><HiOutlineDownload /> Resume</button></a>
+        <a href={resume} download="Alejandro_Salazar_Resume.pdf" className='mt-5'><button className='resume'><HiOutlineDownload /> Resume</button></a>
       </div>
       </div>
   );
