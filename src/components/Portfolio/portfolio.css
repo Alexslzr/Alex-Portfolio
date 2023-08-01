@@ -10,8 +10,6 @@
 .project:hover{
     box-shadow: 8px 6px  10px cyan ;
     background-color: black;
-    color: white;
-    transition: 0.75s;
     transform: scale(1.05);
     transition:  all 0.4s ease 0s;
 }
@@ -20,4 +18,15 @@ img{
     max-width: 100%;
     object-fit: contain;
     border-radius: 5px;
+}
+
+.description{
+    overflow: hidden;  /* Hide the element content, while height = 0 */
+    height: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.tech:hover + .description{
+    height: auto; opacity: 1;
+    transition: 1s;
 }
