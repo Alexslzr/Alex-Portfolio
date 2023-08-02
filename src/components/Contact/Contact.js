@@ -16,23 +16,47 @@ export default function Contact() {
     const inputValue = target.value
 
     if(inputName=== "name"){
-      setName(inputValue)
-    } else if (inputName === "email"){
+        setName(inputValue)
+    } else if (inputName==="email"){
       setEmail(inputValue)
-    } else {
+    } else if (inputName==="Message"){
       setMessage(inputValue)
     }
   }
+
+  function validation(e){
+    console.log(e.target.name)
+    if(e.target.name==="name"){
+      if(!e.target.value){
+        setErrorMessage('Name Missing')
+      } else{
+      setErrorMessage('')
+      }
+    } else if (e.target.name==="email"){
+      if(!e.target.value || !/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(email)){
+        setErrorMessage('E-mail Missing or invalid email')
+      } else{
+      setErrorMessage('')
+    } 
+    }else if (e.target.name==="Message"){
+      if(!e.target.value){
+        setErrorMessage('Message Missing')
+      } else{
+      setErrorMessage('')
+      }
+    }
+  }
+
  
   const handleSubmit = (e) => { 
 
     e.preventDefault();
 
-    if(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(email) || !name){
-      setErrorMessage('Missing Name, or invalid email')
+    if(!/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(email) || !name || !message){
+      setErrorMessage('Invalid email or other input missing')
       return;
     }
-    alert(`Hello ${name}`);
+    alert(`Thank you for contacting me ${name}!`);
 
     setName('')
     setEmail('')
@@ -49,14 +73,16 @@ export default function Contact() {
           value={name}
           type='text'
           placeholder='Name'
-          onChange={handleInputChange}/>
+          onChange={handleInputChange}
+          onBlur={validation}/>
         <p className='pt-2'>E-mail</p>
         <input
           name="email"
           value={email}
           type='email'
           placeholder='E-mail'
-          onChange={handleInputChange}/>
+          onChange={handleInputChange}
+          onBlur={validation}/>
         <p className='pt-2'>Message</p>
         <input
           className='message'
@@ -64,7 +90,8 @@ export default function Contact() {
           value={message}
           type='text'
           placeholder='Message'
-          onChange={handleInputChange}/>
+          onChange={handleInputChange}
+          onBlur={validation}/>
         <button type='button' onClick={handleSubmit}>Submit</button>
       </form>
       {errorMessage && (
