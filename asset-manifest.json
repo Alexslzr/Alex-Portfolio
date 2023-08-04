@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Alex-Portfolio/static/css/main.d66c8fa9.css",
-    "main.js": "/Alex-Portfolio/static/js/main.96f7b05d.js",
+    "main.js": "/Alex-Portfolio/static/js/main.dc6a31dc.js",
     "static/media/Alejandro_Salazar_Resume.pdf": "/Alex-Portfolio/static/media/Alejandro_Salazar_Resume.068fbe91bbf3d55c3569.pdf",
     "static/media/cool-background.png": "/Alex-Portfolio/static/media/cool-background.35a1c7eefeecb408561e.png",
     "static/media/gmail.png": "/Alex-Portfolio/static/media/gmail.4f10d6dbd55f9ac499cb.png",
     "index.html": "/Alex-Portfolio/index.html",
     "main.d66c8fa9.css.map": "/Alex-Portfolio/static/css/main.d66c8fa9.css.map",
-    "main.96f7b05d.js.map": "/Alex-Portfolio/static/js/main.96f7b05d.js.map"
+    "main.dc6a31dc.js.map": "/Alex-Portfolio/static/js/main.dc6a31dc.js.map"
   },
   "entrypoints": [
     "static/css/main.d66c8fa9.css",
-    "static/js/main.96f7b05d.js"
+    "static/js/main.dc6a31dc.js"
   ]
 }
