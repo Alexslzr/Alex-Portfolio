@@ -21,13 +21,22 @@ const projects = [
                     },
                     {
                         id: 3,
+                        title: 'GoalHub',
+                        app: 'https://goalhub-5f7766233267.herokuapp.com/',
+                        repo: 'https://github.com/mondragonSaiz/GoalHub',
+                        tech: 'MERN Stack',
+                        img: 'https://github.com/Alexslzr/Note-Taker/raw/main/Assets/11-express-homework-demo-01.png',
+                        description: 'Empower company employees to track departmental goals and personal achievements within a dynamic social networking platform. With GoalHub, workers can collaborate, share their progress, and celebrate their successes on a weekly basis, fostering a motivated and connected workforce.'
+                    }
+                 /*   {
+                        id: 3,
                         title: 'Note Taker',
                         app: 'https://enigmatic-fjord-82076.herokuapp.com/notes',
                         repo: 'https://github.com/Alexslzr/Note-Taker',
                         tech: 'ExpressJs/Js/NodeJs',
                         img: 'https://github.com/Alexslzr/Note-Taker/raw/main/Assets/11-express-homework-demo-01.png',
                         description: 'Note taker App where you can create , update and delete notes. This application use an Express.js back end and save and retrieve note data from a JSON file.'
-                    }
+                    }*/
                 ]
     },
     {
