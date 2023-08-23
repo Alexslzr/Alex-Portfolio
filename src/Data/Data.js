@@ -1,33 +1,34 @@
 const projects = [
     { 
          section: [
-                    {
-                        id: 1,
-                        title: 'Sales Tracker',
-                        app: 'https://sales-tracker-t4p2-f41e20adc513.herokuapp.com/login',
-                        repo: 'https://github.com/Morkendi/Sales-Tracker',
-                        tech: 'Js/NodeJs/ExpressJs/Mysql/TailwindCss',
-                        img: 'https://github.com/Morkendi/Sales-Tracker/blob/main/public/images/deployed.gif?raw=true',
-                        description: 'Fullstack Application for Sales employees, so they can easily monitor their earnings, add new sales, access their sales history, view product information, and obtain a summary of their sales performance.'
-                    },
-                    {
-                        id: 2,
-                        title: 'Tech Blog',
-                        app: 'https://pacific-bayou-28721-544ed386ada5.herokuapp.com/',
-                        repo: 'https://github.com/Alexslzr/Tech-Blog',
-                        tech: 'Js/NodeJs/ExpressJs/Mysql/BootstrapCss',
-                        img:  'https://github.com/Alexslzr/Tech-Blog/raw/main/Assets/techblog.png',
-                        description: 'CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. using the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.'
-                    },
-                    {
-                        id: 3,
-                        title: 'GoalHub',
-                        app: 'https://goalhub-5f7766233267.herokuapp.com/',
-                        repo: 'https://github.com/mondragonSaiz/GoalHub',
-                        tech: 'MERN Stack',
-                        img: 'https://github.com/Alexslzr/Note-Taker/raw/main/Assets/11-express-homework-demo-01.png',
-                        description: 'Empower company employees to track departmental goals and personal achievements within a dynamic social networking platform. With GoalHub, workers can collaborate, share their progress, and celebrate their successes on a weekly basis, fostering a motivated and connected workforce.'
-                    }
+            {
+                id: 1,
+                title: 'GoalHub',
+                app: 'https://goalhub-5f7766233267.herokuapp.com/',
+                repo: 'https://github.com/mondragonSaiz/GoalHub',
+                tech: 'MERN Stack',
+                img: 'https://github.com/mondragonSaiz/GoalHub/raw/main/client/src/img/readme/Homepage.png',
+                description: 'Empower company employees to track departmental goals and personal achievements within a dynamic social networking platform. With GoalHub, workers can collaborate, share their progress, and celebrate their successes on a weekly basis, fostering a motivated and connected workforce.'
+            },
+            {
+                id: 2,
+                title: 'Sales Tracker',
+                app: 'https://sales-tracker-t4p2-f41e20adc513.herokuapp.com/login',
+                repo: 'https://github.com/Morkendi/Sales-Tracker',
+                tech: 'Js/NodeJs/ExpressJs/Mysql/TailwindCss',
+                img: 'https://github.com/Morkendi/Sales-Tracker/blob/main/public/images/deployed.gif?raw=true',
+                description: 'Fullstack Application for Sales employees, so they can easily monitor their earnings, add new sales, access their sales history, view product information, and obtain a summary of their sales performance.'
+            },
+            {
+                id: 3,
+                title: 'Tech Blog',
+                app: 'https://pacific-bayou-28721-544ed386ada5.herokuapp.com/',
+                repo: 'https://github.com/Alexslzr/Tech-Blog',
+                tech: 'Js/NodeJs/ExpressJs/Mysql/BootstrapCss',
+                img:  'https://github.com/Alexslzr/Tech-Blog/raw/main/Assets/techblog.png',
+                description: 'CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. using the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.'
+            }
+                   
                  /*   {
                         id: 3,
                         title: 'Note Taker',
