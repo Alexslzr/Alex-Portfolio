@@ -18,7 +18,6 @@ ul li a:hover{
     border: none;
     color: black;
     text-decoration: none;
-    transform: scale(1.2);
     transition:  all 0.4s ease 0s;
 }
 
@@ -28,3 +27,163 @@ ul li a:hover{
 }
 
 
+/* Agregar estos estilos a tu archivo header.css existente */
+
+/* Contenedor principal del header */
+.header-container {
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* Botón hamburguesa */
+  .hamburger-btn {
+    border: none !important;
+    background: none !important;
+    color: inherit;
+    font-size: 1.5rem;
+    padding: 0.5rem !important;
+    transition: transform 0.2s ease;
+  }
+  
+  .hamburger-btn:hover {
+    transform: scale(1.1);
+    color: inherit !important;
+  }
+  
+  .hamburger-btn:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Navegación desktop */
+  .desktop-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .desktop-nav li {
+    margin: 0 0.5rem;
+  }
+  
+  /* Contenedor del menú mobile */
+  .mobile-nav-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 0.5rem 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
+  
+  .mobile-nav-container.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Lista de navegación mobile */
+  .mobile-nav {
+    margin: 0;
+    padding: 1rem 0;
+    list-style: none;
+  }
+  
+  .mobile-nav li {
+    margin: 0;
+  }
+  
+  .mobile-nav-item {
+    padding: 0.75rem 1.5rem !important;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s ease;
+    border-left: 3px solid transparent;
+  }
+  
+  .mobile-nav-item:hover {
+    background-color: #f8f9fa;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .mobile-nav-item.act {
+    background-color: #e3f2fd;
+    border-left-color: #007bff;
+    font-weight: 600;
+  }
+  
+  /* Overlay para cerrar el menú */
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 998;
+  }
+  
+  /* Espaciado entre icono y texto */
+  .mobile-nav-item svg,
+  .desktop-nav a svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* Responsive breakpoints adicionales */
+  @media (max-width: 767.98px) {
+    .header-container h1 {
+      font-size: 1.5rem;
+    }
+    
+    .header-container {
+      padding: 0.75rem 1rem !important;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .header-container h1 {
+      font-size: 1.25rem;
+    }
+    
+    .mobile-nav-item {
+      padding: 0.5rem 1rem !important;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Mejorar la accesibilidad */
+  @media (prefers-reduced-motion: reduce) {
+    .mobile-nav-container,
+    .hamburger-btn {
+      transition: none;
+    }
+  }
+  
+  /* Estados de focus para navegación por teclado */
+  .desktop-nav a:focus,
+  .mobile-nav-item:focus {
+    outline: 1px solid #007bff;
+    outline-offset: 1px;
+  }
+  
+  /* Asegurar que el menú mobile se posicione correctamente */
+  .header-container {
+    overflow: visible;
+  }
+  
+  /* Animación suave para el icono del hamburguesa */
+  .hamburger-btn svg {
+    transition: transform 0.2s ease;
+  }
+  
+  .hamburger-btn:hover svg {
+    transform: scale(1.01);
+  }

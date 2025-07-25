@@ -1,9 +1,11 @@
 
 .project{
     background-color: #7CA2CB;
+    display: flex;
+    flex-direction: column;
     color: white;
     box-shadow: 8px 6px  10px grey ;
-    width: 25vw;
+    min-width: 20%;
     transition:  all 0.4s ease 0s;
 }
 
@@ -23,10 +25,47 @@ img{
 .description{
     overflow: hidden;  /* Hide the element content, while height = 0 */
     height: 0;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
 }
-.tech:hover + .description{
-    height: auto; opacity: 1;
-    transition: 1s;
-}
+
+
+
+/* portfolio.css */
+  
+  .project h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: white;
+  }
+  
+  .project .tech {
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  .project .tech img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project .tech img:hover {
+    transform: scale(1.02);
+  }
+  
+  .project .description {
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+  
+  /* Asegurar que todas las tarjetas tengan la misma altura */
+  .row.g-4 > [class*="col-"] {
+    display: flex;
+  }

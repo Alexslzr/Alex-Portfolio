@@ -23,9 +23,10 @@ export default function Resume({skills}) {
   return (
     <div>
       <div className='m-3 d-flex flex-column align-items-center'>
-        <h1 className='text-center'>Technical Skills</h1>
-        <div className='d-flex flex-column align-items-center justify-content-center'>
-          <div className='d-flex'>
+        <h1 className='text-center mb-4'>Technical Skills</h1>
+        
+        {/* Contenedor con CSS Grid para responsividad */}
+        <div className='skills-grid'>
             <div className='tech-icon'>
               <DiJavascript1/>
               <h5>Javascript</h5>
@@ -50,8 +51,6 @@ export default function Resume({skills}) {
               <DiGit/>
               <h5>Git</h5>
             </div>
-          </div>
-          <div className='d-flex'>
             <div className='tech-icon'>
               <DiHtml5/>
               <h5>HTML</h5>
@@ -76,8 +75,6 @@ export default function Resume({skills}) {
               <BiLogoTailwindCss/>
               <h5>TailwindCss</h5>
             </div>
-          </div>
-          <div className='d-flex'>
             <div className='tech-icon'>
               <BiLogoGraphql/>
               <h5>GraphQL</h5>
@@ -86,12 +83,14 @@ export default function Resume({skills}) {
               <SiExpress/>
               <h5>ExpressJs</h5>
             </div>
-          </div>
         </div>
-        <a href={resume} download="Alejandro_Salazar_CV.pdf" className='mt-5'><button className='resume'><HiOutlineDownload /> Resume</button></a>
+        
+        <a href={resume} download="Alejandro_Salazar_CV.pdf" className='mt-5'>
+          <button className='resume'>
+            <HiOutlineDownload /> Resume
+          </button>
+        </a>
       </div>
-      </div>
+    </div>
   );
 }
-
-

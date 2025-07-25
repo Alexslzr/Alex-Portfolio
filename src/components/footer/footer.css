@@ -8,7 +8,13 @@ footer a img{
 }
 
 footer{
-    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 5vh;
+    
+
 }
 
 footer a img:hover{

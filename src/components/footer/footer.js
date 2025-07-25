@@ -3,7 +3,7 @@ import "./footer.css"
 
 function Footer({ currentPage}) {
     return (
-        <footer className={currentPage !== 'Portfolio' ? "d-flex align-items-center justify-content-sm-center fixed-bottom" : "d-flex align-items-center justify-content-sm-center"}>
+        <footer>
             <a href="https://github.com/Alexslzr/" target="_blank">
                 <img  src={require("../../Images/github-mark.png")} alt="github-logo"></img>
             </a>

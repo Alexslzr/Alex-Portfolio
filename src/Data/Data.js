@@ -1,6 +1,4 @@
 const projects = [
-    { 
-         section: [
             {
                 id: 1,
                 title: 'GoalHub',
@@ -27,7 +25,7 @@ const projects = [
                 tech: 'Js/NodeJs/ExpressJs/Mysql/BootstrapCss',
                 img:  'https://github.com/Alexslzr/Tech-Blog/raw/main/Assets/techblog.png',
                 description: 'CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. using the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.'
-            }
+            },
                    
                  /*   {
                         id: 3,
@@ -38,10 +36,7 @@ const projects = [
                         img: 'https://github.com/Alexslzr/Note-Taker/raw/main/Assets/11-express-homework-demo-01.png',
                         description: 'Note taker App where you can create , update and delete notes. This application use an Express.js back end and save and retrieve note data from a JSON file.'
                     }*/
-                ]
-    },
-    {
-        section:  [
+
                     {
                         id: 4,
                         title: 'Employee Tracker',
@@ -68,11 +63,7 @@ const projects = [
                         tech: 'Mysql/NodeJs/ExpressJs',
                         img: "https://github.com/Alexslzr/README-Generator/raw/main/assets/Readmegenerator.png",
                         description: 'Command-line application intended to quickly and easily create a README file. This allows the project creator to devote more time to working on the project.'
-                    }
-                ]
-    },
-    {
-        section: [
+                    },
                     {
                         id: 7,
                         title: 'SVG Logo Maker',
@@ -100,10 +91,7 @@ const projects = [
                         tech: 'Jquery/JS/HTML/CSS',
                         img: 'https://github.com/Alexslzr/Work-Day-Scheduler/raw/main/Develop/Assets/gif/05-third-party-apis-homework-demo.gif',
                         description: 'Calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.'
-                    }
-                ]
-    },{
-        section: [
+                    },
             {
                 id: 10,
                 title: 'Code Quiz',
@@ -131,9 +119,6 @@ const projects = [
                 img: "https://github.com/Alexslzr/Social-Network-API/raw/main/Assets/18-nosql-homework-demo-01.gif",
                 description: 'API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It use Express.js for routing, a MongoDB database, and the Mongoose ODM.'
             }
-           
-        ]
-    }
 ];
 
 export default projects;
