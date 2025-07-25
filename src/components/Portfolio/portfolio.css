@@ -9,6 +9,10 @@
     transition:  all 0.4s ease 0s;
 }
 
+#port{
+  margin: auto
+
+}
 .project:hover{
     box-shadow: 8px 6px  10px cyan ;
     background-color: black;

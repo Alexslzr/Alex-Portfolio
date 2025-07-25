@@ -10,10 +10,10 @@ let styles = {
 
 export default function Portfolio({projects}) {
   return (
-    <div className='container-fluid px-4 py-5'>
+    <div id="port" className='container-fluid px-4 py-5'>
       <div className='row g-4'>
         {projects.map((project)=> (       
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-3">
                 <div className="project my-2 mx-4 p-4 rounded">
                   <div className='d-flex align-items-center'>
                     <h1 key={project.id}>{project.title}</h1>
